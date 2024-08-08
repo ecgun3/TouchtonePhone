@@ -1,5 +1,19 @@
 This project simulates a keypad phone, allowing users to navigate between applications and move within lists using specific buttons. The interface is simple yet effective, providing essential functionalities for users to interact with.
 
+General View:
+
+<img width="185" alt="GenelGörünüm" src="https://github.com/user-attachments/assets/ed8d2791-047a-4e37-8988-f49e99fde335">
+
+İnside some of the apps:
+
+<img width="193" alt="RehberApp" src="https://github.com/user-attachments/assets/472d050d-aef2-460e-a484-43272d1f173e">
+
+<img width="190" alt="MusicApp" src="https://github.com/user-attachments/assets/30d6646f-9729-4360-aa97-18065b6c1817">
+
+<img width="181" alt="RehberAppCall" src="https://github.com/user-attachments/assets/cf4d970c-ee20-4bc6-b86a-81801c669256">
+
+<img width="182" alt="RehberAppUncall" src="https://github.com/user-attachments/assets/fb04c2ad-77a1-426c-8785-7165f8cbc423">
+
 A-Project Functionality
 
 1-Navigation with Directional Buttons:
@@ -23,6 +37,22 @@ A-Project Functionality
 * The volumeUp, volumeDown, and mute buttons control the volume level.
 * The volume is restricted to a maximum (10) and a minimum (0) level. Users cannot increase the volume beyond the maximum or decrease it below the minimum level.
 
+Volume Down:
+
+<img width="187" alt="SesDüzeyiKısıldı" src="https://github.com/user-attachments/assets/f331044c-567f-456f-9424-a2da0ee93c5d">
+
+Mute:
+
+<img width="186" alt="Sessizde" src="https://github.com/user-attachments/assets/4293dbb3-64eb-4f5c-bd53-73800841c5f4">
+
+Volume down when the phone is mute (restriction):
+
+<img width="187" alt="SessizdeKısıldı" src="https://github.com/user-attachments/assets/d55627f4-62df-4d2b-abbd-207ba6076a1d">
+
+Volume up when the phone has max volume (restriction):
+
+<img width="176" alt="SesDüzeyiMax" src="https://github.com/user-attachments/assets/6cefb9b3-7609-466a-8ff2-b143d48c3a99">
+
 5-Home Button for Returning to the Main Screen:
 
 * The home button allows users to return to the main screen when inside an application.
@@ -45,6 +75,8 @@ B-Technical Details
 * The contacts and music applications are integrated with an SQL database. Contacts in the contacts app and music information in the music app are dynamically fetched from the database and displayed in a ListBox.
 
 * SqlConnection and SqlCommand objects are used for connecting to the database and retrieving data.
+
+  <img width="235" alt="Veritabanı" src="https://github.com/user-attachments/assets/ecfca015-1787-4989-a9ab-ce9069f0a075">
 
 3-Navigation Logic:
 
